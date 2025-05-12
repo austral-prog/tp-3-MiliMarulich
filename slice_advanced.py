@@ -1,6 +1,8 @@
 def slice_advanced():
     name = input(" ")
-    print(name [4::2])
+    print(name.lower()[0:3])
+    print(name.lower()[2:5])
+    print(name.lower()[:])
     # Código a implementar utilizando input.
 
 # Para verificar este ejercicio ejecutar el comando
